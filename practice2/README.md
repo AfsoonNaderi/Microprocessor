@@ -25,5 +25,5 @@ void setup() {
 
 void loop() {
   val = digitalRead(LedPin);  
-  digitalWrite(LED_BUILTIN, !val);
+  digitalWrite(LED_BUILTIN, val);
 }
